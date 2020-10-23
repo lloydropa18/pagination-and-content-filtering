@@ -1,0 +1,96 @@
+
+/* base style */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightskyblue;
+    padding: 50px 0; 
+    font-family: 'Roboto', sans-serif; 
+}
+img {
+    border-radius: 50%;
+    width: 70px;
+    margin: 20px;
+    margin-left: 0;
+}
+p {
+    margin: 5px;
+}
+/* wrapper */
+.container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: white;
+    padding: 50px;
+}
+/* header */
+.header .headerTitle{
+    text-transform: uppercase;
+}
+
+.header,.studentDetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* search */
+#search {
+    outline: none;
+    padding: 8px;
+}
+#searchBtn{
+    padding: 10px ;
+    color: white;
+    background-color: lightskyblue;
+    border: none;
+    transition: background-color .3s ease-out;
+    cursor: pointer;
+}
+#searchBtn:hover{
+    background-color: blue;
+}
+/* students */
+.studentsInfo{
+    display: flex;
+    align-items: center;
+}
+.userName {
+    color:#2373BE;
+    font-weight: 900;
+}
+li {
+    border-bottom: 1px solid #BFBDC1;
+}
+.joinedDate p{
+    color: #7A777E;
+}
+
+/* pages */
+#pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+#pages .btn {
+    color: lightskyblue;
+    transition: background-color,color .3s ease-out;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin: 2px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+#pages .btn:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+.hide {
+    display: none;
+}
+
