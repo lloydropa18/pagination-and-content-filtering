@@ -38,7 +38,6 @@ function nothingFound(){
     });
     if (studentsHide === students.length){
         notFound.style.display = "block";
-        console.log(studentsHide)
     }
 }
 
